@@ -9,7 +9,7 @@
 	    <ul>
 	    <% @repos.each do |repo| %>
 	      <li>
-	        <h5></h5><%= repo["name"] %><br>
+	        <h5>Name:<%= repo["name"] %></h5><br>
 	        <%= repo["html_url"] %><br>
 	        <%= repo["description"] %><br>
 	      </li>
