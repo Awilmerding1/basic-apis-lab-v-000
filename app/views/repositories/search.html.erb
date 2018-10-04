@@ -5,7 +5,7 @@
   <%= submit_tag "Search Github!" %>
 <% end %>
 	<div>
-	  <%=@repos.first%>
+	  <%=@repos.first["owner"]%>
 	<!--<% if @repos %>-->
 	<!--    <ul>-->
 	<!--    <% @repos.each do |repo| %>-->
